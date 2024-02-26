@@ -14,7 +14,7 @@ pub(crate) enum ChangeKind<'a> {
 }
 
 #[derive(Debug, Default)]
-pub(crate) struct ChangeMap<'a> {
+pub struct ChangeMap<'a> {
     changes: DftHashMap<SyntaxId, ChangeKind<'a>>,
 }
 

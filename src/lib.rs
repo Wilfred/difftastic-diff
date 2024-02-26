@@ -1,5 +1,5 @@
-mod changes;
+pub mod changes;
 mod hash;
 pub mod myers_diff;
-mod syntax;
+pub mod syntax;
 mod words;
