@@ -9,8 +9,8 @@ use line_numbers::SingleLineSpan;
 use typed_arena::Arena;
 
 use self::Syntax::*;
-use crate::changes::{ChangeKind, ChangeMap};
 use crate::changes::ChangeKind::*;
+use crate::changes::{ChangeKind, ChangeMap};
 use crate::hash::DftHashMap;
 use crate::myers_diff;
 use crate::words::split_words_and_numbers;
