@@ -7,7 +7,7 @@ use rustc_hash::FxHashSet;
 use crate::hash::DftHashMap;
 
 #[derive(Debug, PartialEq)]
-pub(crate) enum DiffResult<T> {
+pub enum DiffResult<T> {
     Left(T),
     Both(T, T),
     Right(T),
