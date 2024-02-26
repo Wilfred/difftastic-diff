@@ -22,6 +22,7 @@ rust-version = "1.65.0"
 hashbrown = "0.14.3"
 line-numbers = "0.3.0"
 rustc-hash = "1.1.0"
+tree-sitter = "0.21.0"
 typed-arena = "2.0.2"
 wu-diff = "0.1.2"
 
