@@ -32,6 +32,7 @@ version = "0.1.0"
 dependencies = [
  "hashbrown",
  "rustc-hash",
+ "wu-diff",
 ]
 
 [[package]]
@@ -96,6 +97,12 @@ name = "version_check"
 version = "0.9.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f"
+
+[[package]]
+name = "wu-diff"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8e3e6735fcde06432870db8dc9d7e3ab1b93727c14eaef329969426299f28893"
 
 [[package]]
 name = "zerocopy"

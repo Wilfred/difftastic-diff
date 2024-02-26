@@ -21,3 +21,4 @@ rust-version = "1.65.0"
 [dependencies]
 hashbrown = "0.14.3"
 rustc-hash = "1.1.0"
+wu-diff = "0.1.2"
